@@ -21,13 +21,14 @@ header{
 
 main{
     flex-wrap: wrap;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin: 0 2%;
+    padding: 2%;
 }
 
 footer{
     background-color: antiquewhite;
     padding: 5%;
+    margin-top: 2%;
 }
 
 .menu{
@@ -41,36 +42,36 @@ footer{
 }
 
 .dropdown {
-  position: relative;
-  list-style: none;
-  background-color: whitesmoke;
-  border-radius: 5px;
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-top: 0.5%;
-  padding-bottom: 0.5%;
-  text-align: left;
-  min-width: 100px;
+    position: relative;
+    list-style: none;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 0.5% 2%;
+    text-align: left;
+    min-width: 100px;
 }
 
 /* esconder dropdown*/
 .dropdown_menu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background: white;
-  list-style: none;
-  padding: 10px;
-  min-width: 150px;
-  text-align: left;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    list-style: none;
+    padding: 10px;
+    min-width: 150px;
+    text-align: left;
+    border-radius: 5px;
 }
 
 /* mostrar dropdown */
 .dropdown:hover .dropdown_menu {
-  display: block;
+    display: block;
+    background-color: cadetblue;
 }
 
 p{
     margin-bottom: 1%;
 }
+
